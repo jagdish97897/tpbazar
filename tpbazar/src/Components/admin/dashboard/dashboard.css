@@ -1,0 +1,19 @@
+.static-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .static-table th, .static-table td {
+    border: 1px solid #f9f6f6;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .static-table th {
+    background-color: #8884d8;
+  }
+  .static-table td {
+    background-color: #82ca9d;
+  }
+  
+ 

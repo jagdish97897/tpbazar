@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+.Category {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #ccc;
+    height:320px;
+    width:500px;
+  }
+  
+  .btnsubcategory {
+    margin-top: 10px;
+  }
+  
+  /* Styles for the table */
+.tablecat {
+    margin: 20px;
+    padding: 20px;
+    border: 5px solid #f5dddd;
+    height:500px;
+    width:620px;
+  }
+  
+  /* Styles for form labels */
+.FormLabel h6 {
+    font-size: 16px;
+  } 
+  
+  /* Styles for input fields */
+.Form.Control[type="text"] {
+    width: 100%;
+    padding: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for buttons */
+.Button {
+    margin-top: 10px;
+  }
+  
+  /* Styles for the table */
+ table {
+    width: 100%;
+  }
+  
+th, td { 
+    padding: 10px;
+    text-align: center;
+  }
+  
+
+  th {
+    background-color: #eacaca;
+  } 
+ 
+  
+  tr:nth-child(even) {
+    background-color: #fbe0e0;
+  }
+
+
+
+  /* Pagination styles */
+.pagination {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 20px;
+}
+
+.pagination li {
+  cursor: pointer;
+  padding: 5px 10px;
+  border: 1px solid #2fccef;
+  background-color: #fff;
+}
+
+.pagination li.active {
+  background-color: #007bff;
+  color: #fff;
+  border: 1px solid #007bff;
+}
+
+.search{
+  padding-left:8;
+}

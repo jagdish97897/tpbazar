@@ -1,0 +1,58 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:sans-serif;
+}
+.Role {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .btnrole {
+    margin-top: 10px;
+  }
+  
+  /* Styles for the table */
+  .table4 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  /* Styles for form labels */
+  .FormLabel h6 {
+    font-size: 16px;
+  }
+  
+  /* Styles for input fields */
+  .Form.Control[type="text"] {
+    width: 100%;
+    padding: 100px;
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for buttons */
+  .Button {
+    margin-top: 10px;
+  }
+  
+  /* Styles for the table */
+  table {
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  th {
+    background-color: #f5b8b8;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #e5cbcb;
+  }
+  

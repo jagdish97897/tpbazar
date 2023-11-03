@@ -1,0 +1,7 @@
+/* Style the bordered form */
+.bordered-form {
+    border: 2px solid #ccc; /* Adjust the border color and thickness as needed */
+    padding: 20px; /* Add some padding to the form for better spacing */
+    border-radius: 10px; /* Add rounded corners */
+  }
+  

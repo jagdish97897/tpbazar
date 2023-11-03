@@ -1,0 +1,67 @@
+/* In your CSS file, e.g., App.css */
+
+/* Style the form container */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  
+  /* Style the form header */
+  .form-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style the form labels */
+  .form-label {
+    font-weight: bold;
+  }
+  
+  /* Style the form inputs */
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the select input */
+  select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Style the submit button */
+  .btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Style the submit button on hover */
+  .btn-primary:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Style the form container width for responsiveness */
+  @media (max-width: 768px) {
+    .form-container {
+      width: 80%;
+    }
+  }
+
+  
+  
